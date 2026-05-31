@@ -1,3 +1,4 @@
+import BrowseCityWrapers from "../wrapers/BrowseCityWrapers";
 import BrowseOfficeWrapers from "../wrapers/BrowseOfficeWrapers";
 
 
@@ -143,7 +144,7 @@ export default function Browse()
       </div>
     </div>
   </header>
-    
+    <BrowseCityWrapers />
   <section
     id="Benefits"
     className="flex items-center justify-center w-[1015px] mx-auto gap-[100px] mt-[100px]"
